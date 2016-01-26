@@ -1,7 +1,7 @@
 FROM alpine:3.3
 MAINTAINER John Downey <jdowney@gmail.com>
 
-ENV RAILS_VERSION 4.2.5
+ENV RAILS_VERSION 4.2.5.1
 
 RUN apk --update --upgrade add \
      ruby ruby-irb ruby-dev ruby-bigdecimal \
